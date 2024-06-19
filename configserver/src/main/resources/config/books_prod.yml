@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+books:
+  message: "Welcome to Micro_Library books microservices api"
+  contactDetails:
+    name: "Roman Svyshch - Product Owner"
+    email: "svychroman@gmail.com"
+  onCallSupport:
+    - (099) 668-1573

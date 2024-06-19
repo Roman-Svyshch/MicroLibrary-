@@ -1,0 +1,7 @@
+books:
+  message: "Welcome to Micro_Library books microservices related QA APIs"
+  contactDetails:
+    name: "Roman Svyshch - Tester"
+    email: "svychroman@gmail.com"
+  onCallSupport:
+    - (099) 668-1573

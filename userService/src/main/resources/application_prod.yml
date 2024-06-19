@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+users:
+  message: "Welcome to Micro_Library users microservices api"
+  contactDetails:
+    name: "Roman Svyshch - Product Owner"
+    email: "svychroman@gmail.com"
+  onCallSupport:
+    - (099) 668-1573

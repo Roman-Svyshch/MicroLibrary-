@@ -1,0 +1,36 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: userService
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/micro_library
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "prod"
+
+
+users:
+  message: "Welcome to Micro_Library users microservices api"
+  contactDetails:
+    name: "Roman Svyshch - Developer"
+    email: "svychroman@gmail.com"
+  onCallSupport:
+    - (099) 668-1573
+
+
+
+

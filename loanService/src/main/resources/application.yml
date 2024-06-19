@@ -1,0 +1,34 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: loanService
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/micro_library
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "prod"
+
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to Micro_Library loans microservices api"
+  contactDetails:
+    name: "Roman Svyshch - Developer"
+    email: "svychroman@gmail.com"
+  onCallSupport:
+    - (099) 668-1573

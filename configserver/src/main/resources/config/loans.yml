@@ -1,0 +1,7 @@
+loans:
+  message: "Welcome to Micro_Library loans microservices api"
+  contactDetails:
+    name: "Roman Svyshch - Developer"
+    email: "svychroman@gmail.com"
+  onCallSupport:
+    - (099) 668-1573
